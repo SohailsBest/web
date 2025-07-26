@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Registration Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="submitted.html">
+  <img src="./img/msss.png" alt="mss" width="500">
+
+  <h1><ins>STUDENT REGISTRATION FORM</ins></h1>
+
+  <div class="form-section">
+    <fieldset>
+        <legend>Your Details</legend>
+    <p><label for="name">First Nameㅤㅤ
+        <input type="text" name="name" id="name" placeholder="Enter Your First Name" required>
+    </label></p>
+    <p><label for="lastname">Last Nameㅤㅤ
+        <input type="text" name="lastname" id="lastname" placeholder="Enter Your Last Name" required>
+    </label></p>
+    <p><label for="dob">Date Of Birthㅤㅤ
+        <input type="date" name="dob" id="dob" required>
+    </label></p>
+    <p><label for="email">Emailㅤㅤ
+        <input type="email" name="email" id="email" placeholder="Enter Your Email" required>
+    </label></p>
+    <p><label for="mob">Mobile Numberㅤㅤ
+        <input type="number" name="mob" id="mob" placeholder="Enter Your Mobile Number" required>
+    </label></p>
+    <p><label for="gender">Genderㅤㅤ
+        <label for="male">Maleㅤ</label>
+        <input type="radio" name="gender" id="male" value="male">ㅤ
+        <label for="female">Femaleㅤ</label>
+        <input type="radio" name="gender" id="female" value="female">ㅤ
+        <label for="other">Otherㅤ</label>
+        <input type="radio" name="gender" id="other" value="other">
+        <p><label for="address">Addressㅤ:</p>
+            <textarea name="address" id="address" cols="20" rows="4" required></textarea>
+        </label></p>
+        <p><label for="country">Countryㅤ
+            <input type="text" name="country" id="country" placeholder="Your Country's Name" required>
+        </label></p>
+        <p><label for="city">Cityㅤ
+            <input type="text" name="city" id="city" placeholder="Your City's Name" required>
+        </label></p>
+    </fieldset>
+    <fieldset>
+        <legend>About Yourself</legend>
+        <p><label for="hobbies">Your Hobbiesㅤ:
+            <label for="gaming">ㅤGamingㅤ</label>
+            <input type="checkbox" name="gaming" id="gaming" value="gaming">
+            <label for="programming">ㅤProgrammingㅤ</label>
+            <input type="checkbox" name="programming" id="programming" value="programming">
+            <label for="drawing">ㅤDrawingㅤ</label>
+            <input type="checkbox" name="drawing" id="drawing" value="drawing">
+        </label></p>
+
+        <p>What do you do in your freetime? Write Belowㅤ:</p>
+        <textarea name="freetime" id="freetime" cols="20" rows="4"></textarea>
+    </fieldset>
+    <fieldset>
+        <legend>Courses</legend>
+        <p><label for="course">What courses would you like to choose? Please selectㅤ:
+            <label for="sd">ㅤSoftware Developementㅤ</label>
+            <input type="checkbox" name="sd" id="sd" value="sd">
+            <label for="wd">ㅤWeb Developementㅤ</label>
+            <input type="checkbox" name="wb" id="wd" value="wd">
+            <label for="fl">ㅤFreelancingㅤ</label>
+            <input type="checkbox" name="fr" id="fl" value="fl">
+        </label></p>
+        <p>Tell Us About Your Experience On The Selected Coursesㅤ:</p>
+        <textarea name="exp" id="exp" cols="20" rows="4"></textarea>
+
+        <p>Would you Like More Information About These Courses?</p>
+        <p>Clickㅤ<a href="courses.html" target="_blank">Here</a>ㅤTo Get More Information On Our Courses.</p>
+    </fieldset>
+    <fieldset>
+        <legend>Comments</legend>
+        <p><label for="platforms">Where Did You Hear About Us?</label></p>
+        <select name="platforms" id="">
+            <option value="google">Google</option>
+            <option value="github">Github</option>
+            <option value="insta">Instagram</option>
+            <option value="youtube">Youtube</option>
+            <option value="facebook">Facebook</option>
+            <option value="patreon">Patreon</option>
+        </select>
+        <p>Please Provide Us Feedback By Your Commentsㅤ:</p>
+        <textarea name="comments" id="comments" cols="20" rows="4" disabled></textarea>
+            
+              <div class="center-btn">
+                <button type="submit" class="submit-btn">Submit</button>
+              </div><br><br><br>
+              <marquee behavior="" direction="">For More Information Contact Us At +92302-22222222 ㅤㅤFor More Information Contact Us At +92302-22222222ㅤㅤFor More Information Contact Us At +92302-22222222ㅤㅤFor More Information Contact Us At +92302-22222222</marquee>
+
+</form>
+</body>
+</html>
